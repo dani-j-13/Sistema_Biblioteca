@@ -10,7 +10,7 @@ define("USER", "root");
 define("SERVER", "localhost");
 
 //Nombre de la base de datos (No modificar)
-define("BD", "sistema_libreria");
+define("BD", "sistema_biblioteca");
 
 //Contraseña de myqsl
 define("PASS", "");
@@ -22,4 +22,5 @@ define("BACKUP_PATH", "../backup/");
 	http://php.net/manual/es/function.date-default-timezone-set.php
 	http://php.net/manual/es/timezones.php
 */
+
 date_default_timezone_set('America/Argentina/Buenos_Aires');
